@@ -4,13 +4,14 @@
     background-color: lightblue; 
   }
   
-  .room {
+.room {
     border: 1px solid;
     font-size: 50%;
     text-align: center;
   }
   
-  #navbar {
+#navbar {
+  background-color: #ffe4e6;
     grid-column-start: 2;
     grid-column-end: 6;
     grid-row-start: 1;
@@ -18,17 +19,36 @@
   }
   
   
-  #content {
+#content {
+  background-color: #f5f3ff;
     grid-column-start: 2;
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 6;
   }
   
-  #menu {
+#menu {
+    background-color: #ede9fe;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 6;
+  }
+  
+.container-c {
+  margin-top: 10px;
+    margin-left: 40px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(3, 110px);
+    grid-template-columns: repeat(3, 320px);
+    gap: 42px;
+  }
+  
+.item {
+    background-color: #fffbeb;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
   }
   
